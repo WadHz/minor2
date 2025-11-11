@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{D479716D-1F86-432B-AABF-BE20705734EF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Opdracht_1_1/Pages/Index.cshtml.cs">
+    <Files>
+      <File FileName="Opdracht_1_1/Pages/Index.cshtml" Line="21" Column="36" />
+      <File FileName="Opdracht_1_1/Pages/Index.cshtml.cs" Line="25" Column="33" />
+      <File FileName="Opdracht_1_1/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Opdracht_1_1" expanded="True">
+            <Node name="Opdracht_1_1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Opdracht__1__1 PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

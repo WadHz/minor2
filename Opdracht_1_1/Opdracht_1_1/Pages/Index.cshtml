@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Opdracht 1.1";
+}
+
+<div class="text-center">
+    <h1>Opdracht 1.1</h1>
+    <p>
+        <a href="/?mijnNaam=Matthew Wever">mijn naam</a>
+    </p>
+    <p>
+        <a href="/?mijnStudentnummer=102130">mijn studentnummer</a>
+    </p>
+    <p>
+        <a href="/?mijnLeeftijd=18">mijn leeftijd</a>
+    </p>
+
+    @if (Model.mijnNaam != "")
+    {
+        <p>Mijn naam is @Model.mijnNaam</p>
+    }
+
+    @if (Model.mijnStudentnummer != "")
+    {
+        <p>Mijn studentnummer is @Model.mijnStudentnummer</p>
+    }
+
+    @if (Model.mijnLeeftijd != "")
+    {
+        <p>Mijn leeftijd is @Model.mijnLeeftijd</p>
+    }
+</div>

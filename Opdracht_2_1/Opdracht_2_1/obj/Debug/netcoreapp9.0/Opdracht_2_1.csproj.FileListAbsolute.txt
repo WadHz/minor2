@@ -1,0 +1,8 @@
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.AssemblyInfoInputs.cache
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.AssemblyInfo.cs
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.csproj.CoreCompileInputs.cache
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.RazorAssemblyInfo.cache
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.RazorAssemblyInfo.cs
+/workspaces/minor2/Opdracht_2_1/Opdracht_2_1/obj/Debug/netcoreapp9.0/Opdracht_2_1.sourcelink.json
