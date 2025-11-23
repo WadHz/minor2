@@ -1,0 +1,50 @@
+@page
+@model opdr3.Pages.BestelModel
+@{
+}
+
+<div>
+    <h4>Je hebt de volgende keuze gemaakt</h4>
+    <table>
+        <tr>
+            <td>Naam:</td>
+            <td>@Model.bank</td>
+        </tr>
+        <tr>
+            <td>Type:</td>
+            <td>@Model.type</td>
+        </tr>
+        <tr>
+            <td>Beschrijving:</td>
+            <td>@Model.beschrijving</td>
+        </tr>
+        <tr>
+            <td>Prijs:</td>
+            <td>@Model.prijs.ToString("0.00")</td>
+        </tr>
+    </table>
+    
+    <h4>Vul jouw gegevens in om te bestellen</h4>
+    <form method="post">
+        <table>
+            <tr>
+                <td>naam:</td>
+                <td><input type="text" name="naam" /></td>
+            </tr>
+            <tr>
+                <td>adres:</td>
+                <td><input type="text" name="adres" /></td>
+            </tr>
+            <tr>
+                <td>woonplaats:</td>
+                <td><input type="text" name="woonplaats" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="hidden" name="bank" value="@Model.bank" />
+                    <button type="submit" class="btn btn-danger">Bestel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
