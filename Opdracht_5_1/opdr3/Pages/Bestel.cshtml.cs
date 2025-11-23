@@ -37,7 +37,7 @@ namespace opdr3.Pages
                 bank = bankParam;
             }
 
-       
+         
             List<string> bestelling = new List<string> { bank, naam ?? "", adres ?? "", woonplaats ?? "" };
             HttpContext.Session.SetString("bestelling", string.Join("|", bestelling));
 

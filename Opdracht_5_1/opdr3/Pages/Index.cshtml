@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h4 class="display-4">Welkom bij Lekker Zitten</h4>
+    <table width="764" height="496" border="1" cellpadding="4" cellspacing="4" bordercolor="#999999">
+        <tr>
+            <td width='161'>
+                <img src='~/Images/Armour.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Armour">Bekijk</a>
+            </td>
+            <td width='467' rowspan='3'>
+            <!-- Hier komt de bevestiging van de bestelling -->
+            @if (Model.toonBevestiging)
+            {
+                <h5>Beste @Model.klantNaam</h5>
+                <p>
+                    De bestelling van bank @Model.bankNaam is in behandeling genomen.<br/>
+                    <br/>
+                    Het beloopnaar is: @Model.prijs.ToString("0.00")<br/>
+                    <br/>
+                    Naar @Model.adres<br/>
+                    @Model.woonplaats<br/>
+                    <br/>
+                    Besteldatum: @Model.besteldatum.ToString("dd-MM-yyyy")<br/>
+                    Verwachte levering: @Model.verwachteLevering.ToString("dd-MM-yyyy")
+                </p>
+            }
+            </td>
+            <td width='161'>
+                <img src='~/Images/Baltica.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Baltica">Bekijk</a>
+            </td>
+        </tr>
+        <tr>
+            <td width='161'>
+                <img src='~/Images/Bari.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Bari">Bekijk</a>
+            </td>
+            <td width='161'>
+                <img src='~/Images/Canada.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Canada">Bekijk</a>
+            </td>
+        </tr>
+        <tr>
+            <td width='161'>
+                <img src='~/Images/Colorado.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Colorado">Bekijk</a>
+            </td>
+            <td width='161'>
+                <img src='~/Images/Hawaii.jpg' />
+                <a class="btn btn-danger" href="/Bestel?bank=Hawaii">Bekijk</a>
+            </td>
+        </tr>
+    </table>
+</div>

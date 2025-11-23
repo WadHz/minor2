@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opdr3", "opdr3\opdr3.csproj", "{751CA968-566A-4282-930D-A81131245CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{751CA968-566A-4282-930D-A81131245CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751CA968-566A-4282-930D-A81131245CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751CA968-566A-4282-930D-A81131245CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751CA968-566A-4282-930D-A81131245CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
